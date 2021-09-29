@@ -1,25 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Headings from './components/headings/headings.component';
+import AboutYou from './components/about-you/about-you.component';
+import Details from './components/details/details.component';
 
-function App() {
+
+
+class App extends React.Component {
+  constructor(){
+    super();
+
+    this.state = {
+      'I am self employed': false,
+      'I like personal guidance': false,
+      'I invest in cryptocurrency': false,
+      'I bought or sold a house': false,
+      'I might need audit help': false,
+    }
+  }
+
+  handleClick = event => {
+    console.log(`${event} was previously ${this.state[event]}`)
+
+    this.state[event] ? 
+    this.setState({[event]: false})
+    : 
+    this.setState({[event]: true});
+  }
+
+
+  render(){
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <AboutYou handleClick={this.handleClick}/>
+      <Headings/>
+      <Details/>
     </div>
-  );
+  )
+  }
 }
 
 export default App;
