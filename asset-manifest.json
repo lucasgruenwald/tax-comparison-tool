@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tax-comparison-tool/static/css/main.11e4f1e2.chunk.css",
+    "main.js": "/tax-comparison-tool/static/js/main.f51158b8.chunk.js",
+    "main.js.map": "/tax-comparison-tool/static/js/main.f51158b8.chunk.js.map",
+    "runtime-main.js": "/tax-comparison-tool/static/js/runtime-main.88fff216.js",
+    "runtime-main.js.map": "/tax-comparison-tool/static/js/runtime-main.88fff216.js.map",
+    "static/js/2.2963ddee.chunk.js": "/tax-comparison-tool/static/js/2.2963ddee.chunk.js",
+    "static/js/2.2963ddee.chunk.js.map": "/tax-comparison-tool/static/js/2.2963ddee.chunk.js.map",
+    "static/js/3.6c65575f.chunk.js": "/tax-comparison-tool/static/js/3.6c65575f.chunk.js",
+    "static/js/3.6c65575f.chunk.js.map": "/tax-comparison-tool/static/js/3.6c65575f.chunk.js.map",
+    "index.html": "/tax-comparison-tool/index.html",
+    "static/css/main.11e4f1e2.chunk.css.map": "/tax-comparison-tool/static/css/main.11e4f1e2.chunk.css.map",
+    "static/js/2.2963ddee.chunk.js.LICENSE.txt": "/tax-comparison-tool/static/js/2.2963ddee.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88fff216.js",
+    "static/js/2.2963ddee.chunk.js",
+    "static/css/main.11e4f1e2.chunk.css",
+    "static/js/main.f51158b8.chunk.js"
+  ]
+}
