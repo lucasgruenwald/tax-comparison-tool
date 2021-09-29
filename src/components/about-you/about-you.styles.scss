@@ -1,9 +1,9 @@
 .about-you{
     // height: 200px;
     margin: auto;
-    margin-top: 5vw;
-    width: 90%;
-    border: 3px solid green;
+    margin-top: 2vw;
+    width: 60%;
+    border: 3px solid #0073b9;
     border-radius: 5px;
     padding: 10px;
     max-width: 1000px;
@@ -12,9 +12,10 @@
 .selections{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 
-h2 {
+h3 {
     text-align: center;
 }

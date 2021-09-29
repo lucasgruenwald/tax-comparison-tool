@@ -1,8 +1,9 @@
 import './App.css';
 import React from 'react';
-import Headings from './components/headings/headings.component';
+import Headings from './components/details/details.component';
 import AboutYou from './components/about-you/about-you.component';
 import Details from './components/details/details.component';
+import Header from './components/site-header/site-header.component';
 
 
 
@@ -11,11 +12,9 @@ class App extends React.Component {
     super();
 
     this.state = {
-      'I am self employed': false,
-      'I like personal guidance': false,
-      'I invest in cryptocurrency': false,
-      'I bought or sold a house': false,
-      'I might need audit help': false,
+      'I want a pro to do my taxes': false,
+      'I might need audit assistance': false,
+      'I would like phone/chat support': false
     }
   }
 
@@ -26,16 +25,20 @@ class App extends React.Component {
     this.setState({[event]: false})
     : 
     this.setState({[event]: true});
+    console.log(this.state)
   }
 
 
   render(){
 
+    
+    
+
   return (
     <div>
+      <Header/>
       <AboutYou handleClick={this.handleClick}/>
-      <Headings/>
-      <Details/>
+      <Details selections={this.state}/>
     </div>
   )
   }

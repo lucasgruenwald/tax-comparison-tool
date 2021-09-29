@@ -1,20 +1,27 @@
 .selection{
-    width: 10px;
+    width: 100%;
     padding: 5px;
-    border: 1px solid gray;
+    border: 3px solid gray;
     border-radius: 2px;
-    text-align: left;
+    text-align: center;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 550;
     // margin: auto;
 }
 
+.addCSS{
+    border: 3px solid #0073b9;
+    background-color: #e1f3fe;
+}
+
 .form-input-label{
-    margin-left: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .group{
-    min-width: 250px;
+    min-width: 235px;
     display: flex;
     margin: 5px;
     float: left;

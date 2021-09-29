@@ -4,13 +4,11 @@ import Selection from "../selection/selection.component";
 
 const AboutYou = ({handleClick}) => (
     <div className='about-you'>
-        <h2>Do any of these common scenarios apply to you?</h2>
+        <h3>Do any of these apply?</h3>
         <div className='selections'>
-            <Selection handleClick={handleClick} label='I am self employed'/>
-            <Selection handleClick={handleClick} label='I like personal guidance'/>
-            <Selection handleClick={handleClick} label='I invest in cryptocurrency'/>
-            <Selection handleClick={handleClick} label='I bought or sold a house'/>
-            <Selection handleClick={handleClick} label='I might need audit help'/>
+            <Selection handleClick={handleClick} label='I want a pro to do my taxes'/>
+            <Selection handleClick={handleClick} label='I might need audit assistance'/>
+            <Selection handleClick={handleClick} label='I would like phone/chat support'/>
         </div>
     </div>
 );
